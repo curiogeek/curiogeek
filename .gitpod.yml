@@ -11,6 +11,8 @@ tasks:
       bun install
       
     command: |
+      # Bun upgrade
+      bun upgrade
       # Run project
       bun run dev
 
