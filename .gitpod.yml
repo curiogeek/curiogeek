@@ -12,7 +12,7 @@ tasks:
       
     command: |
       # Run project
-      bun run index.ts
+      bun run dev
 
 ports:
   - port: 3000
