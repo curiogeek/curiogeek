@@ -3,8 +3,6 @@ image: gitpod/workspace-bun
 tasks:
   - name: Init a bun project and run
     init: |
-      # Update image first
-      sudo apt update && sudo apt upgrade -y
       # Init a project if needed
       if test ! -e package.json; then {
         bun init -y
