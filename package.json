@@ -2,13 +2,18 @@
   "name": "curiogeek",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "start": "bun run index.ts"
+  },
   "devDependencies": {
+    "@types/figlet": "^1.5.8",
     "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "figlet": "^1.7.0",
     "next": "^14.0.3"
   }
 }
