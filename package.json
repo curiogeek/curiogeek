@@ -6,6 +6,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tryghost/content-api": "^1.11.20",
     "ghost-cli": "latest",
     "hono": "^3.11.8",
     "next": "^13.4.0",
